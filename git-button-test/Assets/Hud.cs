@@ -27,9 +27,16 @@ public class Hud : MonoBehaviour
         pressedText.text = "I've been pressed again";
     }
 
+
     public void PressAnother()
     {
         Debug.Log("Another is pressed");
         pressedText.text = "Another's been pressed";
     }
+    public void PressAndAnother()
+    {
+        Debug.Log("And another is pressed");
+        pressedText.text = "And another's been pressed";
+    }
+
 }
